@@ -3,17 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PORFOLIO</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
         <ul>
+            <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="home.html">Projects</a></li>
-            <li><a href="education.html">Educational Background</a></li>
-            <li><a href="interests.html">Interests</a></li>
-            <li><a href="programming.html">Programming languages</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
         </ul>
     </nav>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project1-thumbnail.jpg" alt="Project 1" />
+                </div>
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p class="description">
+                        A brief description of the project. It could be a web app, mobile app, etc.
+                    </p>
+                    <div class="technologies">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://github.com/your-repo/project1" class="project-link">View Project</a>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project2-thumbnail.jpg" alt="Project 2" />
+                </div>
+                <div class="project-info">
+                    <h3>Project Two</h3>
+                    <p class="description">
+                        A brief description of another project. It might be a mobile application or something else.
+                    </p>
+                    <div class="technologies">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="https://github.com/your-repo/project2" class="project-link">View Project</a>
+                </div>
+            </div>
+            <!-- More project cards as needed -->
+        </div>
+    </section>
+    
+
 </body>
 </html>
